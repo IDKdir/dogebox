@@ -1,5 +1,7 @@
 Iris = loadstring(game:HttpGet('https://raw.githubusercontent.com/x0581/Iris-Exploit-Bundle/main/bundle.lua'))().Init(game:GetService('CoreGui'))
 
+print('FUCK')
+
 task.spawn(function()
     local Players = game:GetService('Players')
     local RunService = game:GetService('RunService')
