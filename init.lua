@@ -8,7 +8,6 @@ task.spawn(function()
 
     RunService.Heartbeat:Connect(function()
         for i, v in pairs(Players:GetPlayers()) do
-            if v == LocalPlayer then continue end
             if not v.Character then continue end
             local Character = v.Character
             local Highlight = Character:FindFirstChild('DogeboxHighlight')
