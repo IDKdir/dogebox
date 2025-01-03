@@ -1,1 +1,2 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/IDKdir/dogebox/refs/heads/main/ui/main.lua'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/IDKdir/dogebox/refs/heads/main/modules/esp.lua'))()
